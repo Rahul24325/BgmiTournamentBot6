@@ -9,7 +9,6 @@ import logging
 import os
 from telegram.ext import Application
 
-from bot.config import Config
 from bot.handlers import setup_handlers
 from bot.database import init_database
 from bot.notifications import start_notification_scheduler
